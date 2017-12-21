@@ -14,7 +14,7 @@ function food (state = {}, action) {
         [recipe.label]: recipe,
       }
     default :
-      return state
+      return state;
   }
 }
 
@@ -49,7 +49,7 @@ const initialState = {
     lunch: null,
     dinner: null
   },
-  saturdat: {
+  saturday: {
     breakfast: null,
     lunch: null,
     dinner: null
