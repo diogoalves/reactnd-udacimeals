@@ -52,7 +52,6 @@ class App extends Component {
 
   openIngredientsModal = () => { 
     this.setState(() => ({ ingredientsModalOpen: true })) 
-    console.log("entrou")
   }
 
   closeIngredientsModal = () => this.setState(() => ({ ingredientsModalOpen: false }))
